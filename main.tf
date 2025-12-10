@@ -51,7 +51,7 @@ resource "aws_config_delivery_channel" "config" {
 
 resource "aws_config_configuration_recorder_status" "config" {
   name    = aws_config_configuration_recorder.config.name
-  is_enabled = true
+  is_enabled = true
 }
 # Configure the AWS provider
 provider "aws" {
